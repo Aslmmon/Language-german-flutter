@@ -7,3 +7,20 @@ const TextStyle logoTextStyle = const TextStyle(
   fontSize: 24,
   fontStyle: FontStyle.italic
 );
+const TextStyle headerTextStyle = const TextStyle(
+    color: Colors.white,
+    fontSize: 18,
+    fontStyle: FontStyle.normal
+);
+AppBar appBarStyle =  AppBar(
+  title: Text("Learn German", style: headerTextStyle),
+  actions: [
+    IconButton(
+      icon: Icon(Icons.search),
+      color: Colors.white,
+      onPressed: (){
+        print("search");
+      },
+    )
+  ],
+);

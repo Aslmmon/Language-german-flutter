@@ -20,9 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Learn German", style: logoTextStyle),
-      ),
+      appBar: appBarStyle,
       body: Container(
         padding: EdgeInsets.all(10),
         child: GridView.count(
