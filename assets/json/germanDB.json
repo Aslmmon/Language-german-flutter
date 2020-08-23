@@ -1,0 +1,30 @@
+[
+  {
+    "conv_english": "yes",
+    "conv_german": "JA",
+    "greeting_english": "Hello ",
+    "greeting_german": "Guten Tag",
+    "id": 1
+  },
+  {
+    "conv_english": "No",
+    "conv_german": " Nein  ",
+    "greeting_english": "Good Morning",
+    "greeting_german": "Guten Morgen",
+    "id": 2
+  },
+  {
+    "conv_english": "Do you understand",
+    "conv_german": "verstehen Sie mich ?",
+    "greeting_english": "Good Afternoon",
+    "greeting_german": "Guten Tag(nachmittag)",
+    "id": 3
+  },
+  {
+    "conv_english": "I don't Understand",
+    "conv_german": "Ich verstehe nicht",
+    "greeting_english": "Good Evening",
+    "greeting_german": "Guten Abend",
+    "id": 4
+  }
+]

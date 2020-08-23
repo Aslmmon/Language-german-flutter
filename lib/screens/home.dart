@@ -27,8 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
             crossAxisCount: 3,
             children: List.generate(
                 languageData.length,
-                (index) => LanguageViewCategory(
-                    languageCategory: languageData[index]))),
+                (index) => LanguageViewCategory(languageCategory: languageData[index]))),
       ),
     );
   }

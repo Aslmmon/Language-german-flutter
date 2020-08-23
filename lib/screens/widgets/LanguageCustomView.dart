@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:flutterawy/screens/details.dart';
 
 class LanguageViewCategory extends StatelessWidget {
   final languageCategory;
@@ -16,6 +17,7 @@ class LanguageViewCategory extends StatelessWidget {
       child: InkWell(
         onTap: () {
           print(languageCategory);
+          Navigator.of(context).pushNamed(Details.routeName);
         },
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -27,7 +29,10 @@ class LanguageViewCategory extends StatelessWidget {
               height: 40,
             ),
             SizedBox(height: 5),
-            Text(languageCategory.title,textAlign:TextAlign.center,)
+            Text(
+              languageCategory.title,
+              textAlign: TextAlign.center,
+            )
           ],
         ),
       ),
