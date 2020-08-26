@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutterawy/base/RouteGenerator.dart';
 import 'package:flutterawy/screens/Splash.dart';
 
+import 'base/di/service_locator.dart';
+
 void main() {
+  setupServiceLocator();
   runApp(MyApp());
 }
 

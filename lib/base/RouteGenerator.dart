@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterawy/screens/Splash.dart';
-import 'package:flutterawy/screens/details.dart';
+import 'file:///C:/Users/aslmm/AndroidStudioProjects/flutter_clean_archeticture/flutterawy/lib/screens/details/details.dart';
 import 'package:flutterawy/screens/home.dart';
 
 class RouteGenerator {

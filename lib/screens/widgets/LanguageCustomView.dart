@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutterawy/screens/details.dart';
+import 'file:///C:/Users/aslmm/AndroidStudioProjects/flutter_clean_archeticture/flutterawy/lib/screens/details/details.dart';
 
 class LanguageViewCategory extends StatelessWidget {
   final languageCategory;
